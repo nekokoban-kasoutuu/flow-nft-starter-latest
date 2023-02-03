@@ -8,7 +8,7 @@ import { getTotalSupply } from "./cadence/scripts/getTotalSupply_script";
 import { getIDs } from "./cadence/scripts/getID_script";
 import { getMetadata } from "./cadence/scripts/getMetadata_script";
 
-const TWITTER_HANDLE = "_buildspace";
+const TWITTER_HANDLE = "kasoutuu";
 const TWITTER_LINK = `https://twitter.com/${TWITTER_HANDLE}`;
 
 fcl.config({
@@ -36,7 +36,7 @@ function App() {
   const RenderGif = () => {
     const gifUrl = user?.addr
         ? "https://media.giphy.com/media/dg9iAv4yxCD9m/giphy.gif"
-        : "https://i.giphy.com/media/Y2ZUWLrTy63j9T6qrK/giphy.webp";
+        : "https://media.giphy.com/media/e37RbTLYjfc1q/giphy.gif";
     return <img className="gif-image" src={gifUrl} height="300px" alt="Funny gif"/>;
   };
 
